@@ -1,6 +1,229 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AltKlin — Free, zero-dependency, clean-room alternatives to paid software.</title><meta name="description" content="AltKlin: Free, zero-dependency, clean-room alternatives to paid software."><link rel="canonical" href="https://altklin.github.io/">
-<meta property="og:title" content="AltKlin"><meta property="og:description" content="Free, zero-dependency, clean-room alternatives to paid software."><meta property="og:url" content="https://altklin.github.io/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AltKlin","url":"https://altklin.github.io/","description":"Free, zero-dependency, clean-room alternatives to paid software.","sameAs":["https://github.com/AltKlin"]}</script>
-<style>body{margin:0;background:#0b0d10;color:#e6e8eb;font:16px/1.6 system-ui,sans-serif}main{max-width:760px;margin:0 auto;padding:72px 24px}h1{font-size:clamp(44px,9vw,84px);line-height:1;margin:0 0 20px;letter-spacing:-.03em}p{color:#9aa3ad;margin:0 0 8px}a{color:#fff}ul{list-style:none;padding:0;margin:48px 0}li{padding:18px 0;border-top:1px solid #1f242b}li a{font-weight:600;display:block;text-decoration:none}li span{color:#9aa3ad;font-size:14px}footer{margin-top:56px;font-size:14px;color:#6b7480}footer a{color:#9aa3ad}</style></head>
-<body><main><h1>AltKlin</h1><p>Free, zero-dependency, clean-room alternatives to paid software.</p><p><a href="https://github.com/AltKlin">github.com/AltKlin</a></p><ul><li><a href="https://github.com/AltKlin/Vektor">Vektor</a><span>PNG → SVG converter for Gran Turismo 7 decals: faithful vectorization under 15 KB, zero dependencies.</span></li></ul><footer>By <a href="https://codexx64.github.io">CodeX64</a> · Sister org: <a href="https://nesaris.github.io">Nesaris Network</a></footer></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AltKlin — free, zero-dependency alternatives to paid software | Vektor for GT7</title>
+<meta name="description" content="AltKlin rebuilds paid software from scratch as free, open-source tools with zero dependencies. First release: Vektor, a PNG to SVG converter for Gran Turismo 7 livery decals under 15 KB. By CodeX64 (CodexX64), also behind Nesaris Network.">
+<meta name="author" content="CodeX64 (CodexX64)">
+<meta name="keywords" content="AltKlin, Vektor, Gran Turismo 7 decals, GT7 livery, PNG to SVG, vectorizer, free alternative, clean-room, open source, CodeX64, CodexX64, Codex64, Nesaris">
+<link rel="canonical" href="https://altklin.github.io/">
+<meta name="theme-color" content="#f1ede4">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AltKlin">
+<meta property="og:title" content="AltKlin — paid software, rebuilt free">
+<meta property="og:description" content="Free, zero-dependency, clean-room alternatives to paid software. First tool: Vektor, GT7 decals from any PNG under 15 KB.">
+<meta property="og:url" content="https://altklin.github.io/">
+<meta property="og:image" content="https://raw.githubusercontent.com/AltKlin/Vektor/main/docs/apercu.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23161513'/%3E%3Cpath d='M8 24L16 8l8 16M11 18h10' fill='none' stroke='%23f1ede4' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M6 26L26 6' stroke='%23D93A1F' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=bricolage-grotesque:400,600,800|ibm-plex-mono:400,500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://altklin.github.io/#org","name":"AltKlin","url":"https://altklin.github.io/","description":"Free, zero-dependency, clean-room alternatives to paid software.","sameAs":["https://github.com/AltKlin"],"founder":{"@id":"https://codexx64.github.io/#person"}},
+{"@type":"Person","@id":"https://codexx64.github.io/#person","name":"CodeX64","alternateName":["CodexX64","Codex64"],"url":"https://codexx64.github.io/","sameAs":["https://github.com/CodexX64","https://github.com/Nesaris","https://nesaris.github.io/"]},
+{"@type":"SoftwareApplication","name":"Vektor","alternateName":"Vektor GT7 decal converter","description":"Converts PNG images into SVG decals for the Gran Turismo 7 livery editor, under the 15,360-byte limit per file.","url":"https://github.com/AltKlin/Vektor","downloadUrl":"https://github.com/AltKlin/Vektor/releases/latest","applicationCategory":"DesignApplication","operatingSystem":"Windows 10, Windows 11, macOS 13+","license":"https://opensource.org/licenses/MIT","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"publisher":{"@id":"https://altklin.github.io/#org"},"author":{"@id":"https://codexx64.github.io/#person"},"image":"https://raw.githubusercontent.com/AltKlin/Vektor/main/docs/apercu.png"}
+]}
+</script>
+<style>
+:root{
+  --paper:#f1ede4;--paper-2:#e8e3d7;--ink:#161513;--ink-2:#4a4740;--ink-3:#6e6a61;--line:#cfc8b8;
+  --stamp:#D93A1F;--stamp-ink:#b42d15;
+  --display:"Bricolage Grotesque",ui-sans-serif,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace;
+  --s1:4px;--s2:8px;--s3:16px;--s4:24px;--s5:32px;--s6:48px;--s7:64px;--s8:96px;
+  --r:4px;--wrap:1200px;
+}
+*{box-sizing:border-box}
+img{max-width:100%}
+.tool-grid>*,.hero>*,.intro>*,.why>*,.bench>*{min-width:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--display);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--stamp);outline-offset:3px;border-radius:2px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--s4)}
+.mono{font-family:var(--mono);font-size:13px}
+.skip{position:absolute;left:-999px}.skip:focus{left:var(--s3);top:var(--s3);background:var(--ink);color:var(--paper);padding:var(--s2) var(--s3);z-index:9}
+
+header.top{display:flex;justify-content:space-between;align-items:center;padding:var(--s4) 0;border-bottom:2px solid var(--ink)}
+.brand{font-weight:800;font-size:20px;letter-spacing:-.02em;text-decoration:none}
+nav ul{display:flex;gap:var(--s4);list-style:none;margin:0;padding:0}
+nav a{text-decoration:none;color:var(--ink-2)}nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+
+.hero{padding:var(--s7) 0 var(--s7);display:grid;grid-template-columns:1fr auto;gap:var(--s6);align-items:end;border-bottom:1px solid var(--line)}
+.hero h1{margin:0;font-weight:800;font-size:clamp(84px,17vw,240px);line-height:.82;letter-spacing:-.055em}
+.hero .claim{font-size:clamp(26px,3.2vw,40px);line-height:1.1;letter-spacing:-.02em;font-weight:600;margin:var(--s5) 0 0;max-width:18ch}
+.claim s{text-decoration-color:var(--stamp);text-decoration-thickness:4px;color:var(--ink-3)}
+.stamp{width:168px;height:168px;border:3px solid var(--stamp);color:var(--stamp);border-radius:50%;display:grid;place-items:center;text-align:center;transform:rotate(-12deg);font-family:var(--mono);font-size:12px;line-height:1.4;font-weight:500;margin-bottom:var(--s3)}
+.stamp b{display:block;font-family:var(--display);font-size:44px;line-height:1;font-weight:800;letter-spacing:-.03em}
+
+.intro{display:grid;grid-template-columns:220px 1fr;gap:var(--s4);padding:var(--s6) 0;border-bottom:1px solid var(--line)}
+.intro p{margin:0 0 var(--s3);max-width:62ch;color:var(--ink-2);font-size:19px}
+.intro p strong{color:var(--ink);font-weight:600}
+.label{color:var(--ink-3)}
+
+/* tool sheet */
+.tool{padding:var(--s7) 0;border-bottom:1px solid var(--line)}
+.tool-head{display:flex;justify-content:space-between;align-items:baseline;gap:var(--s4);flex-wrap:wrap;margin-bottom:var(--s5)}
+.tool h2{margin:0;font-size:clamp(56px,8vw,112px);line-height:.9;letter-spacing:-.05em;font-weight:800}
+.price{font-family:var(--mono);font-size:14px;border:1.5px solid var(--ink);padding:6px 12px;border-radius:var(--r);white-space:nowrap}
+.price b{color:var(--stamp-ink);font-weight:500}
+.tool-grid{display:grid;grid-template-columns:7fr 5fr;gap:var(--s6);align-items:start}
+.shot{margin:0;border:1.5px solid var(--ink);border-radius:var(--r);overflow:hidden;background:#fff;box-shadow:8px 8px 0 var(--ink)}
+.shot img{display:block;width:100%;height:auto}
+.shot figcaption{font:12px var(--mono);color:var(--ink-3);padding:var(--s2) var(--s3);border-top:1px solid var(--line);background:var(--paper)}
+.pitch{font-size:24px;line-height:1.25;font-weight:600;letter-spacing:-.01em;margin:0 0 var(--s4)}
+.spec{margin:0 0 var(--s5);border-top:1.5px solid var(--ink)}
+.spec div{display:grid;grid-template-columns:120px 1fr;gap:var(--s3);padding:10px 0;border-bottom:1px solid var(--line)}
+.spec dt{font:13px var(--mono);color:var(--ink-3);padding-top:3px}
+.spec dd{margin:0}
+.dl{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center}
+.btn{display:inline-flex;align-items:center;text-decoration:none;font-weight:600;padding:12px 18px;border-radius:var(--r);border:1.5px solid var(--ink)}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn.primary:hover{background:#2c2a26}
+.btn:not(.primary):hover{background:var(--paper-2)}
+.stars{font:13px var(--mono);color:var(--ink-3)}
+
+.why{display:grid;grid-template-columns:220px 1fr;gap:var(--s4);padding:var(--s7) 0;border-bottom:1px solid var(--line)}
+.why ol{margin:0;padding:0;list-style:none;counter-reset:w;display:grid;grid-template-columns:1fr 1fr;gap:0 var(--s6)}
+.why li{counter-increment:w;padding:var(--s4) 0;border-top:1.5px solid var(--ink)}
+.why li::before{content:counter(w,decimal-leading-zero);font:13px var(--mono);color:var(--stamp-ink);display:block;margin-bottom:var(--s2)}
+.why h3{margin:0 0 var(--s1);font-size:22px;letter-spacing:-.02em}
+.why p{margin:0;color:var(--ink-2);max-width:44ch}
+
+.bench{display:grid;grid-template-columns:220px 1fr;gap:var(--s4);padding:var(--s7) 0}
+.bench p{margin:0 0 var(--s3);font-size:19px;max-width:60ch;color:var(--ink-2)}
+.bench p strong{color:var(--ink)}
+.bench .cards{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3);margin-top:var(--s4)}
+.bench .card{border:1.5px solid var(--ink);border-radius:var(--r);padding:var(--s4);text-decoration:none;display:block;background:var(--paper)}
+.bench .card:hover{background:var(--paper-2)}
+.bench .card b{display:block;font-size:24px;letter-spacing:-.02em;margin:var(--s1) 0 var(--s2)}
+.bench .card span{color:var(--ink-2)}
+
+footer{background:var(--ink);color:#bdb7aa;padding:var(--s6) 0 var(--s7);font-size:14px}
+footer a{color:var(--paper)}
+footer .row{display:flex;justify-content:space-between;gap:var(--s4);flex-wrap:wrap}
+footer details{margin-top:var(--s4);max-width:70ch}
+footer summary{cursor:pointer;color:var(--paper)}
+footer details p{margin:var(--s2) 0}
+
+@media (max-width:900px){
+  .hero,.intro,.tool-grid,.why,.bench{grid-template-columns:1fr}
+  .stamp{width:140px;height:140px;font-size:10px}.stamp b{font-size:34px}
+  .why ol,.bench .cards{grid-template-columns:1fr}
+  nav li.hide-s{display:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#vektor">Skip to Vektor</a>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="/">AltKlin</a>
+  <nav aria-label="Main"><ul>
+    <li><a href="#vektor">Vektor</a></li>
+    <li class="hide-s"><a href="#principles">Principles</a></li>
+    <li class="hide-s"><a href="#bench">Next</a></li>
+    <li><a href="https://github.com/AltKlin">GitHub</a></li>
+  </ul></nav>
+</header>
+
+<section class="hero" aria-labelledby="h1">
+  <div>
+    <h1 id="h1">AltKlin</h1>
+    <p class="claim">The software you pay for, rebuilt free.</p>
+  </div>
+  <div class="stamp" aria-label="Price: zero euros, MIT license"><div>PRICE<b>€0</b>MIT · NO ACCOUNT</div></div>
+</section>
+
+<section class="intro" aria-label="What AltKlin is">
+  <span class="label mono">What this is</span>
+  <div>
+    <p><strong>AltKlin</strong> takes tools people usually pay for and rebuilds them from scratch as free, open-source software. Clean-room: the behaviour is redesigned from what the tool should do, never from the original code.</p>
+    <p>Every AltKlin tool has <strong>zero dependencies</strong>, runs on your own machine, and needs no account.</p>
+  </div>
+</section>
+
+<article class="tool" id="vektor" aria-labelledby="vektor-h">
+  <div class="tool-head">
+    <h2 id="vektor-h">Vektor</h2>
+    <span class="price">Gran Turismo 7 · <b>€0</b> · Windows &amp; macOS</span>
+  </div>
+  <div class="tool-grid">
+    <figure class="shot">
+      <img src="https://raw.githubusercontent.com/AltKlin/Vektor/main/docs/apercu.png" alt="Vektor in simple mode converting a PNG into GT7 decals" width="1480" height="827" loading="lazy">
+      <figcaption>Vektor, simple mode</figcaption>
+    </figure>
+    <div>
+      <p class="pitch">Turn any PNG into Gran Turismo 7 livery decals — SVG files under the 15 KB limit, without losing the drawing.</p>
+      <dl class="spec">
+        <div><dt>Problem</dt><dd>GT7 only accepts SVG decals up to 15,360 bytes. Generic vectorizers go over the limit or wreck the details.</dd></div>
+        <div><dt>Output</dt><dd>Flat-color shapes only, in one file when possible — otherwise a few files stacked in the same frame for perfect alignment.</dd></div>
+        <div><dt>Quality</dt><dd>Tries several curve precisions, keeps the closest match to your image, drops the least visible details first.</dd></div>
+        <div><dt>Colors</dt><dd>Change, merge, swap or remove colors; remove the background in one click.</dd></div>
+        <div><dt>Privacy</dt><dd>Everything runs locally. No image ever leaves your computer.</dd></div>
+      </dl>
+      <div class="dl">
+        <a class="btn primary" href="https://github.com/AltKlin/Vektor/releases/latest">Download for Windows / macOS</a>
+        <a class="btn" href="https://github.com/AltKlin/Vektor">Source on GitHub</a>
+        <span class="stars" data-repo="AltKlin/Vektor"></span>
+      </div>
+    </div>
+  </div>
+</article>
+
+<section class="why" id="principles" aria-labelledby="pr-h">
+  <span class="label mono" id="pr-h">Principles</span>
+  <ol>
+    <li><h3>Free, for real</h3><p>No trial, no premium tier, no watermark. MIT license.</p></li>
+    <li><h3>Clean-room</h3><p>Rebuilt from what the tool should do, never from someone else's code.</p></li>
+    <li><h3>Zero dependencies</h3><p>Nothing to install around it, nothing that breaks when a package disappears.</p></li>
+    <li><h3>Yours, offline</h3><p>Runs on your machine, without an account or an internet connection.</p></li>
+  </ol>
+</section>
+
+<section class="bench" id="bench" aria-labelledby="bench-h">
+  <span class="label mono" id="bench-h">On the bench</span>
+  <div>
+    <p>Next up: a <strong>CRM</strong> and an <strong>invoicing</strong> tool, built the same way. Follow <a href="https://github.com/AltKlin">AltKlin on GitHub</a> to see them land.</p>
+    <p>AltKlin is made by <strong>CodeX64</strong> (GitHub <a href="https://github.com/CodexX64">@CodexX64</a>, also written Codex64), who also runs Nesaris Network, a set of self-hosted network tools.</p>
+    <div class="cards">
+      <a class="card" href="https://nesaris.github.io/"><span class="mono" style="color:var(--ink-3)">Sister organization</span><b>Nesaris Network</b><span>Self-hosted tools to map, monitor and run your own network.</span></a>
+      <a class="card" href="https://codexx64.github.io/"><span class="mono" style="color:var(--ink-3)">Author</span><b>CodeX64</b><span>All projects by CodexX64 on GitHub.</span></a>
+    </div>
+  </div>
+</section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <span>© 2026 AltKlin · by <a href="https://codexx64.github.io/">CodeX64</a></span>
+      <span><a href="https://github.com/AltKlin">GitHub</a> · <a href="https://nesaris.github.io/">Nesaris Network</a> · <a href="https://github.com/AltKlin/Vektor/issues">Report a bug</a></span>
+    </div>
+    <details>
+      <summary>Legal notice &amp; privacy</summary>
+      <p><b>Publisher:</b> CodeX64, private individual, non-commercial open-source project. Contact: <a href="mailto:developer@nesaris.cloud">developer@nesaris.cloud</a>.</p>
+      <p><b>Host:</b> GitHub Pages — GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.</p>
+      <p><b>Privacy:</b> no cookies, no analytics, no forms. Fonts are served by Bunny Fonts, images by GitHub, and the star count is read from the public GitHub API by your browser; these services receive your IP address as part of the request.</p>
+    </details>
+  </div>
+</footer>
+<script>
+(function(){
+  var KEY='altklin-stars',now=Date.now(),cache={};
+  try{cache=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+  document.querySelectorAll('[data-repo]').forEach(function(el){
+    var r=el.getAttribute('data-repo'),c=cache[r];
+    function show(n){if(n>0)el.textContent='★ '+n+' on GitHub'}
+    if(c&&now-c.t<3600000){show(c.n);return}
+    fetch('https://api.github.com/repos/'+r).then(function(x){return x.ok?x.json():null}).then(function(d){
+      if(!d)return;show(d.stargazers_count);cache[r]={n:d.stargazers_count,t:now};
+      try{localStorage.setItem(KEY,JSON.stringify(cache))}catch(e){}
+    }).catch(function(){});
+  });
+})();
+</script>
+</body>
+</html>
